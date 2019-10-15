@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="touch-nums.css">
+</head>
+
+<body onload="init(4)">
+    <h1 class="header">Touch The Num</h1>
+    <div>
+        <table class="board">
+        </table>
+    </div>
+    <div class="timer"></div>
+    <div>
+        <input type="radio" name="level" value="4" onclick="init(4)"/> Easy<br>
+        <input type="radio" name="level" value="5" onclick="init(5)"> Medium<br>
+        <input type="radio" name="level" value="6" onclick="init(6)"> Hard<br>
+    </div>
+    <script src="touch-nums.js"></script>
+
+</body>
+
+</html>

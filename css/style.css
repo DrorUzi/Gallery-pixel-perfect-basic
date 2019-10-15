@@ -1,0 +1,40 @@
+
+body {
+    text-align: center;
+}
+
+.header {
+    background-color: lightcoral;
+    border-radius: 30px;
+    color: white;
+    margin-bottom: 40px;
+    padding: 10px;
+    /* width: 20%; */
+}
+
+    
+
+.timer{
+    width: 20%;
+    font-size: 2em;
+    background-color: #2c3737;
+    border-radius: 30px;
+    cursor: progress;
+    color: white;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.board{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    border: black solid 2px;
+    font-size: 30px;
+    margin: 0 auto;
+}
+ 
+.board td{
+    border: black solid 2px;
+}
